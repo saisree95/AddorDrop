@@ -77,7 +77,7 @@ public class other_subjects extends AppCompatActivity {
 
         c_title1 = (TextView)findViewById(R.id.ctitle1);
         c_title2 = (TextView)findViewById(R.id.ctitle2);
-        c_title3 = (TextView)findViewById(R.id.ctitle3);
+        c_title3 = (TextView)findViewById(R.id.ctitle3); //changes made
         c_title4 = (TextView)findViewById(R.id.ctitle4);
         c_title5 = (TextView)findViewById(R.id.ctitle5);
         c_title6 = (TextView)findViewById(R.id.ctitle6);
@@ -273,6 +273,4 @@ public class other_subjects extends AppCompatActivity {
             return true;
         }
 
-        return super.onOptionsItemSelected(item);
-    }
-}
+        return super.onOptionsItemSelected(ite
