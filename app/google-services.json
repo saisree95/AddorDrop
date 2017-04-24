@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "697827368981",
+    "firebase_url": "https://ffcsaddordrop.firebaseio.com",
+    "project_id": "ffcsaddordrop",
+    "storage_bucket": "ffcsaddordrop.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:697827368981:android:adaf76ac4b43d6fd",
+        "android_client_info": {
+          "package_name": "vit.ffcsaddordrop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "697827368981-jfquhj2hoot4ptmvlg2bh2saqp7rrfsj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrcgR6w1P1GGXh3UeLmcjZ6tDAbCu3B6M"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

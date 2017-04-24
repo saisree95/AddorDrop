@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="7dp">
+
+        <TextView
+            android:layout_width="87dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/ccode1"
+            android:text="SWE 101"
+            android:textSize="20dp"
+
+            />
+        <TextView
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/ctitle1"
+            android:text="Principles of Software Engineering"
+            android:textSize="20dp"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:id="@+id/cbutton1"
+            android:onClick="onClickb1"
+            android:layout_gravity="center_vertical"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="7dp">
+
+        <TextView
+            android:layout_width="87dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/ccode2"
+            android:text="SWE 309"
+            android:textSize="20dp"
+
+            />
+        <TextView
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/ctitle2"
+            android:text="Computer Networks Lab"
+            android:textSize="20dp"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:id="@+id/cbutton2"
+            android:onClick="onClickb2"
+
+            android:layout_gravity="center_vertical"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="7dp">
+
+        <TextView
+            android:layout_width="87dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/ccode3"
+            android:text="SWE 414"
+            android:textSize="20dp"
+
+            />
+        <TextView
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/ctitle3"
+            android:text="E Commerce"
+            android:textSize="20dp"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:id="@+id/cbutton3"
+            android:onClick="onClickb3"
+
+            android:layout_gravity="center_vertical"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="7dp">
+
+        <TextView
+            android:layout_width="87dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/ccode4"
+            android:text="SWE 308"
+            android:textSize="20dp"
+
+            />
+        <TextView
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/ctitle4"
+            android:text="Computer Networks"
+            android:textSize="20dp"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:id="@+id/cbutton4"
+            android:onClick="onClickb4"
+
+            android:layout_gravity="center_vertical"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="7dp">
+
+        <TextView
+            android:layout_width="87dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/ccode5"
+            android:text="SWE 401"
+            android:textSize="20dp"
+
+            />
+        <TextView
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/ctitle5"
+            android:text="Software Architecture and Design"
+            android:textSize="20dp"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:id="@+id/cbutton5"
+            android:onClick="onClickb5"
+
+            android:layout_gravity="center_vertical"/>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="7dp">
+
+        <TextView
+            android:layout_width="87dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/ccode6"
+            android:text="SWE 406"
+            android:textSize="20dp"
+
+            />
+        <TextView
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/ctitle6"
+            android:text="Software Project Management"
+            android:textSize="20dp"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:id="@+id/cbutton6"
+            android:onClick="onClickb6"
+
+            android:layout_gravity="center_vertical"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="7dp">
+
+        <TextView
+            android:layout_width="87dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/ccode7"
+            android:text="SWE 431"
+            android:textSize="20dp"
+
+            />
+        <TextView
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/ctitle7"
+            android:text=".Net Programming"
+            android:textSize="20dp"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:id="@+id/cbutton7"
+            android:onClick="onClickb7"
+
+            android:layout_gravity="center_vertical"/>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="7dp">
+
+        <TextView
+            android:layout_width="87dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/ccode8"
+            android:text="SWE 411"
+            android:textSize="20dp"
+
+            />
+        <TextView
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/ctitle8"
+            android:text="Software Testing"
+            android:textSize="20dp"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:id="@+id/cbutton8"
+            android:onClick="onClickb8"
+
+            android:layout_gravity="center_vertical"/>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/but_submit"
+        android:onClick="onClickSubmit"
+        android:layout_gravity="center_horizontal"
+        android:text="Submit" />
+
+    </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>
